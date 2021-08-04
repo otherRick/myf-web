@@ -1,0 +1,15 @@
+.MB {
+  margin-left: 550px;
+  margin-right: 600px;
+  margin-top: 200px;
+  justify-content: center;
+  flex: content;
+  background-color: rgb(31, 34, 32);
+  font-size: 20px;
+  font-weight: 100;
+  color: rgb(198, 201, 255);
+}
+
+.LK {
+  font-size: 15px;
+}
