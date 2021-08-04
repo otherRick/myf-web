@@ -2,7 +2,11 @@ const Input = (props) => {
   return (
     <div>
       <label>{props.label}</label>
-      <input placeholder={props.placeholder} type="text" />
+      <input value={props.value}
+        onChange={props.onChange}
+        placeholder={props.placeholder}
+        type="text"
+      />
     </div>
   );
 };
